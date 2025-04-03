@@ -17,7 +17,7 @@ export default function NewsSection() {
         );
         const data = await response.json();
         console.log("Top news ",data);
-        setNews(data.results.slice(0, 5)); // Show top 5 news articles
+        setNews(data.results.slice(0, 5));
         setLoading(false);
       } catch (err) {
         setError("Failed to fetch news.");

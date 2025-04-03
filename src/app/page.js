@@ -1,38 +1,3 @@
-// // import WeatherSection from '@/app/WeatherSection/page';
-// // import CryptoSection from '@/app/CryptoSection';
-// // import NewsSection from '@/app/NewsSection';
-
-
-// // export default function Home() {
-// //   return (
-// //     <div className="min-h-screen p-8 bg-gray-100">
-// //       <h1 className="text-4xl text-center font-bold mb-8">CryptoWeather Nexus</h1>
-// //       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-// //         <div className="bg-white p-4 rounded-lg shadow-md">
-// //           <WeatherSection/>
-// //         </div>
-// //         <div className="bg-white p-4 rounded-lg shadow-md">
-// //           <CryptoSection />
-// //         </div>
-// //         <div className="bg-white p-4 rounded-lg shadow-md">
-// //           <NewsSection />
-// //         </div>
-// //       </div>
-// //     </div>
-// //   );
-// // }
-
-
-// export default function Page() {
-//   return (
-//     <div>
-//       <h1>Welcome to CryptoWeather Nexus</h1>
-//       <p>Dashboard combining weather, crypto, and news!</p>
-//     </div>
-//   );
-// }
-
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
